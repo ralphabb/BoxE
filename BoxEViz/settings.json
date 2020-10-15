@@ -1,0 +1,7 @@
+{
+  "selectedDims": [0,1],
+  "selectedEntities": [0, 1, 2, 3, 4, 5],
+  "epochFrequency": 1,
+  "dataFile": "data.json",
+  "animTime": 100
+}

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+rect {
+fill: black;
+fill-opacity: .35;
+}
+
+rect.pos1 {
+stroke: blue;
+fill: blue;
+}
+
+rect.pos2 {
+stroke: red;
+fill: red;
+}
+
+circle{
+fill-opacity: 0.85;
+}
+
+line{
+stroke-opacity: 0.85;
+stroke-width: 1px;
+}
+
+p {
+font-family: "Geneva";
+text-align: center;
+}
+
+h1 {
+font-family: "Geneva";
+margin: 0px;
+}
+
+h2 {
+font-family: "Geneva";
+margin: 0px;
+}
+
+h3 {
+font-family: "Geneva";
+margin: 0px;
+}
+
+label{
+font-family: "Geneva";
+font-size: 12px;
+}
+
+@keyframes gain_opacity {
+  100% {fill-opacity: 0.8}
+}
+
+@keyframes show_text {
+  100% {fill-opacity: 1.0}
+}
+
+[class^=boxrel]:hover > rect{
+    animation-name:gain_opacity;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+[class^=boxrel]:hover > text{
+    animation-name:show_text;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+[class^=boxrel] > text{
+    z-index: -1000;
+    fill-opacity: 0.0;
+}

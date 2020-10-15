@@ -1,0 +1,16 @@
+instance3374	education.education	023tdq	02bdq4	081k8	04g7d	011cct95	076h6
+instance3375	education.education	023tdq	02bdq4	081k8	02h40lc	011cct95	0156qk
+instance3376	education.education	023tdq	02bdq4	081k8	06nm1	011cct95	04g7x
+instance3377	education.education	023tdq	02bdq4	01zc2w	04g7x	011cct95	04g7x
+instance3378	education.education	023tdq	02bdq4	081k8	04g7x	011cct95	04g7x
+instance3379	education.education	023tdq	02bdq4	081k8	02h40lc	011cct95	04g7x
+instance3380	education.education	023tdq	02bdq4	01zc2w	04g7d	011cct95	0156qk
+instance3381	education.education	023tdq	02bdq4	01zc2w	06nm1	011cct95	0156qk
+instance3382	education.education	023tdq	02bdq4	081k8	04g7x	011cct95	076h6
+instance3383	education.education	023tdq	02bdq4	081k8	04g7d	011cct95	0156qk
+instance3384	education.education	023tdq	02bdq4	081k8	04g51	011cct95	04g7x
+instance3385	education.education	023tdq	02bdq4	01zc2w	02h40lc	011cct95	076h6
+instance3386	education.education	023tdq	02bdq4	01zc2w	02h40lc	011cct95	0156qk
+instance3387	education.education	023tdq	02bdq4	081k8	06nm1	011cct95	0156qk
+instance14548	education.education	0127vg_g	0128374g	01mkq	04rjg	0127vg_g	01zc2w
+instance14549	education.education	0127vg_g	0128374g	01mkq	05qjt	0127vg_g	01zc2w

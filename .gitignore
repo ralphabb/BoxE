@@ -1,0 +1,14 @@
+.idea/*
+__pycache__
+.DS_Store
+Other/Datasets/*
+summaries/*
+losses.ls
+training_log.txt
+*.ipynb
+training_ckpts/
+/weights_*
+/Dataset.py
+*.prof
+/Other/
+/BoxEViz/data.json
