@@ -2,7 +2,7 @@
 This repository contains the source code for the BoxE model, presented at NeurIPS 2020 in the [paper](https://arxiv.org/pdf/2007.06267.pdf) "BoxE: A Box Embedding Model for Knowledge Base Completion". The repository includes all evaluation datasets, code for training and testing BoxE on these datasets to reproduce results presented in the paper, and a D3.JS visualization tool, BoxEViz, to show the evolution of box embeddings over the course of training. 
 
 ## Requirements
-- TensorFlow 1.x (>=1.13.1) and its corresponding NumPy version
+- TensorFlow 1.x (>=1.15.0) and its corresponding NumPy version
 - msgpack 0.6.1 
 - msgpack-numpy 0.4.4.2 for dataset loading
 
