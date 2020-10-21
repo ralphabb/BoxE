@@ -101,7 +101,7 @@ Once open, BoxEViz enables you to scroll through the different box configuration
 If you make use of this code, or its accompanying [paper](https://arxiv.org/pdf/2007.06267), please cite this work as follows:
 
 ```
-@inproceedings{ACL-AAAI20,
+@inproceedings{ACLS-NeurIPS2020,
   title={BoxE: A Box Embedding Model for Knowledge Base Completion},
   author    = {Ralph Abboud and
                 {\.I}smail {\.I}lkan Ceylan and
