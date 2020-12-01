@@ -899,6 +899,7 @@ class BoxEMulti:
         if hits_at is None:
             hits_at = [1, 3, 5, 10]
         self.sess.run(tf.assign(self.nb_neg, 0))
+        self.sess.run(tf.assign(self.dim_dropout_prob, 0.0))   # Disable dropout during testing
         self.sess.run(init_op)
         reference_scores, batch_mask = self.sess.run([self.scores, self.batch_mask])
         ranks = np.full((nb_facts, self.max_arity), 1)
@@ -939,6 +940,7 @@ class BoxEMulti:
             for i in range(len(hits_at)):
                 print("Hits@" + str(hits_at[i]) + ":" + str(hits_at_values[i]))
         self.sess.run(tf.assign(self.nb_neg, self.nb_neg_examples_per_pos))
+        self.sess.run(tf.assign(self.dim_dropout_prob, self.dim_dropout_flt))  # Restore dropout after eval complete
         self.sess.run(self.training_init_op)
         return mean_rank, mean_reciprocal_rank, hits_at_values
 
