@@ -348,7 +348,7 @@ class BoxEMulti:
         self.obj_fct = options.obj_fct  # Objective Function
         self.loss_fct = options.loss_fct   # Loss Function
         self.loss_ord = options.loss_norm_ord  # Loss Norm Order (1,2,etc..)
-        self.dim_dropout_prob = tf.placeholder_with_default(options.dim_dropout_prob, [], name='dim_drpt_prob')
+        self.dim_dropout_prob = tf.Variable(initial_value=options.dim_dropout_prob, shape=(), name='dim_drpt_prob')
         self.dim_dropout_flt = options.dim_dropout_prob
 
         # KB setting
